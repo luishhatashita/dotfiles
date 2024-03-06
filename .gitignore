@@ -1,0 +1,20 @@
+# Folders
+dconf/**
+evolution/**
+gnome-session/**
+goa-1.0/**
+gtk-3.0/**
+htop/**
+ibus/**
+libreoffice/**
+matplotlib/**
+nautilus/**
+pulse/**
+update-notifier/**
+
+#Files
+gnome-initial-setup-done
+monitors.xml
+monitors.xml~
+user-dirs.dirs
+user-dirs.locale
