@@ -180,5 +180,5 @@ bar {
         status_command i3status
 }
 
-exec_always --no-startup-id /usr/bin/feh --bg-scale '/home/lhatashita3/Pictures/Wallpapers/random_anime_sky.jpeg'
+exec_always --no-startup-id /usr/bin/feh --bg-scale '~/Pictures/Wallpapers/sky.jpg'
 exec --no-startup-id compton

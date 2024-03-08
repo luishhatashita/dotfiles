@@ -12,6 +12,19 @@ nautilus/**
 pulse/**
 update-notifier/**
 configstore/**
+abrt/**
+alacritty/**
+dconf/**
+displaylink/**
+displaylink-rpm/**
+evdi/**
+imsettings/**
+obsidian/**
+ParaView/**
+Thunar/**
+vlc/**
+volumeicon/**
+xfce4/**
 
 #Files
 gnome-initial-setup-done
@@ -19,3 +32,6 @@ monitors.xml
 monitors.xml~
 user-dirs.dirs
 user-dirs.locale
+mimeapps.list
+pavucontrol.ini
+sealert.conf
