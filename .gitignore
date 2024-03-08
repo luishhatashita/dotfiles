@@ -11,6 +11,7 @@ matplotlib/**
 nautilus/**
 pulse/**
 update-notifier/**
+configstore/**
 
 #Files
 gnome-initial-setup-done

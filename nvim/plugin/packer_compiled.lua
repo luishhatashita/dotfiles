@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "/home/lhatashita3/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/lhatashita3/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/lhatashita3/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -153,7 +158,7 @@ _G.packer_plugins = {
   ["vim-be-good"] = {
     loaded = true,
     path = "/home/lhatashita3/.local/share/nvim/site/pack/packer/start/vim-be-good",
-    url = "https://github.com/ThePrimeagen/vim-be-good"
+    url = "https://github.com/theprimeagen/vim-be-good"
   },
   ["vim-fugitive"] = {
     loaded = true,

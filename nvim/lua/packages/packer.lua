@@ -8,21 +8,33 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.2',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
+      'nvim-telescope/telescope.nvim', tag = '0.1.2',
+      -- or                            , branch = '0.1.x',
+      requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Colorschemes:
+  -- For catppuccin:
   use { 
-	  "catppuccin/nvim", 
-	  as = "catppuccin",
-	  config = function()
-		  vim.cmd('colorscheme catppuccin-mocha')
-	  end
+      "catppuccin/nvim", 
+      as = "catppuccin",
+      config = function()
+    	  vim.cmd('colorscheme catppuccin-mocha')
+      end
   }
+
+  -- For rose-pine
+  --use { 
+  --    "rose-pine/nvim", 
+  --    as = "rose-pine",
+  --    config = function()
+  --  	  vim.cmd('colorscheme rose-pine')
+  --    end
+  --}
 
   use { 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} }
   use { 'nvim-treesitter/playground' }
+  use { 'theprimeagen/harpoon' }
   use { 'mbbill/undotree' }
   use { 'tpope/vim-fugitive' }
 
@@ -44,6 +56,6 @@ return require('packer').startup(function(use)
 
   use { 'mfussenegger/nvim-dap' }
 
-  use { 'ThePrimeagen/vim-be-good' }
+  use { 'theprimeagen/vim-be-good' }
 
 end)
