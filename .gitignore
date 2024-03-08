@@ -13,11 +13,8 @@ pulse/**
 update-notifier/**
 configstore/**
 abrt/**
-alacritty/**
 dconf/**
 displaylink/**
-displaylink-rpm/**
-evdi/**
 imsettings/**
 obsidian/**
 ParaView/**
@@ -25,6 +22,9 @@ Thunar/**
 vlc/**
 volumeicon/**
 xfce4/**
+alacritty/**
+displaylink-rpm/**
+evdi/**
 
 #Files
 gnome-initial-setup-done
